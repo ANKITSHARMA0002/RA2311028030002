@@ -55,12 +55,9 @@ Hence, the issue is from backend.
 ![Mobile View](./notification_app_fe/screenshots/mobile-view.png)
 
 ### C. CORS Error Proof
-*(Replace this text when you capture your Network tab screenshot)*
 ![CORS Error](./notification_app_fe/screenshots/cors-error.png)
 
-### D. Postman Proof
-*(Replace this text when you capture your Postman screenshot)*
-![Postman Proof](./notification_app_fe/screenshots/postman-proof.png)
+
 
 ## Setup Instructions
 ```bash
