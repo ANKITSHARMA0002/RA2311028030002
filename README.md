@@ -7,6 +7,28 @@ Frontend Notification System built using React/Next.js with logging middleware i
 - Responsive UI (mobile + desktop)
 - Logging middleware integrated across application
 
+## Project Architecture
+
+```text
+campus/
+├── README.md
+└── notification_app_fe/
+    ├── app/                    # Next.js Pages and Layout
+    ├── components/             # Reusable UI components
+    │   ├── FilterBar.jsx
+    │   ├── NotificationCard.jsx
+    │   ├── NotificationList.jsx
+    │   └── Pagination.jsx
+    ├── hooks/                  # Custom React hooks
+    │   └── useNotifications.js
+    ├── screenshots/            # Submission proof images
+    ├── services/               # API and Logging integration
+    │   ├── api.js
+    │   └── logging.js
+    └── utils/                  # Helper logic
+        └── priority.js
+```
+
 ## API Used
 `http://20.207.122.201/evaluation-service/notifications`
 
@@ -27,23 +49,22 @@ Hence, the issue is from backend.
 ## Screenshots
 
 ### A. Frontend UI (Desktop)
-*(Add your desktop screenshot here by replacing this image link)*
-![Desktop UI](./screenshots/desktop-ui.png)
+![Desktop UI](./notification_app_fe/screenshots/desktop-ui.png)
 
 ### B. Mobile View
-*(Add your mobile screenshot here)*
-![Mobile View](./screenshots/mobile-view.png)
+![Mobile View](./notification_app_fe/screenshots/mobile-view.png)
 
 ### C. CORS Error Proof
-*(Add your Network tab screenshot here)*
-![CORS Error](./screenshots/cors-error.png)
+*(Replace this text when you capture your Network tab screenshot)*
+![CORS Error](./notification_app_fe/screenshots/cors-error.png)
 
 ### D. Postman Proof
-*(Add your Postman screenshot here)*
-![Postman Proof](./screenshots/postman-proof.png)
+*(Replace this text when you capture your Postman screenshot)*
+![Postman Proof](./notification_app_fe/screenshots/postman-proof.png)
 
 ## Setup Instructions
 ```bash
+cd notification_app_fe
 npm install
 npm run dev
 ```
